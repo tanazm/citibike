@@ -17,25 +17,54 @@ body {
 .top-left {
   position: absolute;
   text-transform: uppercase;
-  top: .5%;
+  top: 3%;
+  left: 13%;
+}
+
+.bottom-left {
+  position: absolute;
+  text-transform: uppercase;
+  top: 1%;
   left: 13%;
 }
 
 .top-left2 {
   position: absolute;
   font-weight: 100;
+  top: 6%;
+  left: 13%;
+}
+
+.bottom-left2 {
+  position: absolute;
+  font-weight: 100;
   top: 4%;
   left: 13%;
 }
 
+
 .top-right {
   position: absolute;
   text-transform: uppercase;
-  top: .5%;
+  top: 3%;
+  left: 53%;
+}
+
+.bottom-right {
+  position: absolute;
+  text-transform: uppercase;
+  top: 1%;
   left: 53%;
 }
 
 .top-right2 {
+  position: absolute;
+  font-weight: 100;
+  top: 6%;
+  left: 53%;
+}
+
+.bottom-right2 {
   position: absolute;
   font-weight: 100;
   top: 4%;
@@ -52,7 +81,7 @@ body {
   }
 
 .text-container2 {
-    max-width: 80%; 
+    max-width: 75%; 
     margin: 0 auto
   }
 
@@ -119,25 +148,29 @@ p {
 #map {
     width: 35%;
     height: 600px;
-    margin: 5em 3em;
+    margin: 7em 3em;
+    margin-bottom: 40px;
 }
 
 #map2 {
     width: 35%;
     height: 600px;
-    margin: 5em 3em;
+    margin: 6em 3em;
+    margin-bottom: 40px;
 }
 
 #map3 {
     width: 35%;
     height: 600px;
-    margin: 5em 3em;
+    margin: 7em 3em;
+    margin-bottom: 40px;
 }
 
 #map4 {
     width: 35%;
     height: 600px;
-    margin: 5em 3em;
+    margin: 6em 3em;
+    margin-bottom: 40px;
 }
 
 .mapboxgl-popup-content h4 {
